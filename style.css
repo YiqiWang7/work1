@@ -1,0 +1,102 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    color:black;
+    background-color:antiquewhite
+}
+
+.breadcrumbs ul{
+    list-style: none;
+    padding:10px;
+    background-color: antiquewhite;
+}
+
+.breadcrumbs ul li {
+    display:inline;
+    margin-right: 5px
+}
+
+.product-title {
+    text-align:center;
+    margin-top: 20px;
+    color:brown
+}
+
+.product-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.prduct-options {
+text-align: center;
+margin-top: 10px;
+}
+
+.size-options {
+margin-bottom: 10px;
+}
+
+.size-options button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.quanlity {
+    margin-bottom: 10px;
+}
+
+.quanlity select {
+    padding: 5px;
+}
+
+.price {
+    font-size: 1.2em;
+}
+
+.add-to-bag {
+    background-color: aquamarine(0,99,15);
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointor;
+}
+
+.product-descirbtion，
+.delivery-options,
+.customer-reviews {
+    margin: 20p auto;
+    width: 80%;
+}
+.delivery-options {
+    /* border-collapse: collapse; */
+    width: 100%;
+}
+
+.delivery-options,
+.delivery-options th,
+.delivery-options td {
+    border: 1px solid black
+}
+
+.delivery-options th,
+.delivery-options td {
+    padding: Box;
+    text-align: left;
+}
+
+.customer-reviews {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px
+}
+
+.customer-reviews h3 {
+    margin: 0;
+}
